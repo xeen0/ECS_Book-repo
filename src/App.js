@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       {D ? (
         <div>
-          <Redirect to={{ pathname: "/Page1", state: { from: "/" } }} />
+          <Redirect to={{ pathname: "/Shop", state: { from: "/" } }} />
           <Route exact path="/Shop" component={ShopPage} />
           <Route exact path="/Checkout" component={CartPage} />
         </div>
