@@ -1,0 +1,12 @@
+Source URL: https://github.com/xeen0/ECS_Book-repo
+Website URL: https://xeen0.github.io/ECS_Book-repo/#/Page1
+
+
+Instructions:
+
+
+*  A list of Books is displayed with their 
+*  Users can able to search for a Book using the search bar.
+*  Users can sort the list based on "Rating" and “Price” by clicking on the heading(“Ratings” or “Price”, asc/desc).
+* The user is able to select the Book from the list. Selected Books are listed on the Cart
+* By hover 

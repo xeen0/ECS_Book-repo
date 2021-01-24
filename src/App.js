@@ -33,8 +33,8 @@ function App() {
       {D ? (
         <div>
           <Redirect to={{ pathname: "/Page1", state: { from: "/" } }} />
-          <Route exact path="/Page1" component={ShopPage} />
-          <Route exact path="/Page2" component={CartPage} />
+          <Route exact path="/Shop" component={ShopPage} />
+          <Route exact path="/Checkout" component={CartPage} />
         </div>
       ) : (
         <PuffLoader color={"#D0021B"} loading={true} size={150} />
