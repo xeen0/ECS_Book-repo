@@ -15,7 +15,7 @@ export const CartPage = () => {
   return (
     <div>
       <MuiCheckOutTable />
-      <Link to="/Page1" style={{ textDecoration: "none" }}>
+      <Link to="/Shop" style={{ textDecoration: "none" }}>
         <Button variant="contained" color="secondary">
           <Typography className={classes.title}>Shop More</Typography>
         </Button>

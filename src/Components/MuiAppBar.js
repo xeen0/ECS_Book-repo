@@ -127,7 +127,7 @@ export function MuiAppBar() {
           <div className={classes.grow} />
           <div>
             <IconButton aria-label="show 4 new mails" color="inherit">
-              <Link to="/Page2" style={{ textDecoration: "none" }}>
+              <Link to="/Checkout" style={{ textDecoration: "none" }}>
                 {SelectedBooks.length > 0 ? (
                   <MuiPopOver>
                     <Badge
